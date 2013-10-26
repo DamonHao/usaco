@@ -6,7 +6,6 @@ LANG: C++
 
 #include <iostream>
 #include <fstream>
-//#include <vector>
 #include <string>
 using namespace std;
 
@@ -64,6 +63,7 @@ int main(){
                     pal_end = backward;
                     max_pal_len = temp_pal_len;
                 }
+                //Note to update the below two variable 
                 forward--;
                 backward++;
             }else{
