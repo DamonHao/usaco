@@ -31,7 +31,8 @@ void DFS(short a,short b,short c){
     bucket_state[a][b] = true;
     if(a == 0)
        c_remain[c] = true; 
-    //There are total 6 cases to pour bucket
+    //There are total 6 cases to pour bucket.Once pouring begin,it won't end unless
+    //either the soucr bucket is empty or the target bucket is full.
     //a->b
     if(a > 0 && b < b_capacity)
         DFS(Max(0,a+b-b_capacity),Min(b_capacity,a+b),c);
