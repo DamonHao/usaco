@@ -86,6 +86,9 @@ int main(){
         cow[i] = --pasture_num; 
     } 
     for(int i = 0; i < C; i++){
+        //Note, because the number of paths C [1,1450] is far smaller than the 800*800,
+        //The graph is sparse. So we use some structure like "Adjacency List" to find the 
+        //vertices adjacent to each node in a cheap way; 
         int u = 0,v = 0,w = 0;
         fin >> u >> v;
         u--;v--;
