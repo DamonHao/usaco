@@ -3,7 +3,7 @@ ID: haolink1
 PROG: gift1
 LANG: C++
 */
-#include <iostream>
+//#include <iostream>
 #include <stdlib.h>
 #include <fstream>
 #include <string.h>

@@ -3,7 +3,7 @@ ID: haolink1
 PROG: milk2
 LANG: C++
 */
-#include <iostream>
+//#include <iostream>
 #include <fstream>
 #include <string>
 #include <list>

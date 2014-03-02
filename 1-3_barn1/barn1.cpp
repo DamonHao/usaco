@@ -4,7 +4,7 @@ PROG: barn1
 LANG: C++
 */
 
-#include <iostream>
+//#include <iostream>
 #include <fstream>
 #include <list>
 using namespace std;

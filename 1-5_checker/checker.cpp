@@ -14,8 +14,8 @@ short row_record[MAXN]={0};
 //The below three arrays record checker's placement info which is used to check whether the
 //later checker's placement meet the requirement.This is the key point to redcue the running time.
 //Record the the number of checker in column j 
-//(i, j) -> j
-char col_mark[MAXN] = {0};        
+//(i, j) -> j 
+char col_mark[MAXN] = {0};//数据类型可以改为 bool
 //Record the number of checker in up-diagonal of (i,j)
 //(i, j) -> i+j 
 char updiag[2*MAXN] = {0};

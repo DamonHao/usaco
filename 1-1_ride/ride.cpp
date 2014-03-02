@@ -3,7 +3,7 @@ ID: haolink1
 PROG: ride
 LANG: C++
 */
-#include <iostream>
+//#include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;

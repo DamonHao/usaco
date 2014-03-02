@@ -1,10 +1,17 @@
+//Considering this problem, we should know that:
+//1 the order of the move is meaningless;
+//2 any move perform 4 times is meaningless;
+//So the total case is 4^9 = 262144, the amount is ok
+//It's said that this problem can also be solved by BFS and DFS,
+//but I can't find the proper answer
+
 /*
 ID: haolink1
 PROG: clocks
 LANG: C++
 */
 
-#include <iostream>
+//#include <iostream>
 #include <fstream>
 #include <vector>
 using namespace std;
@@ -96,12 +103,7 @@ void CopyArray(short* source, short* destination, short len){
     }
 }
 
-//Considering this problem, we should know that:
-//1 the order of the move is meaningless;
-//2 any move perform 4 times is meaningless;
-//So the total case is 4^9 = 262144, the amount is ok
-//It's said that this problem can also be solved by BFS and DFS,
-//but I can't find the proper answer
+
 int main(){
     ifstream fin("clocks.in");
     short* original = new short[9];

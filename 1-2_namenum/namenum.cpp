@@ -3,7 +3,7 @@ ID: haolink1
 PROG: namenum
 LANG: C++
 */
-#include <iostream>
+//#include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>

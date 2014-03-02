@@ -3,7 +3,7 @@ ID: haolink1
 PROG: transform
 LANG: C++
 */
-#include<iostream>
+//#include<iostream>
 #include <fstream>
 using namespace std;
 typedef unsigned int u_int;
